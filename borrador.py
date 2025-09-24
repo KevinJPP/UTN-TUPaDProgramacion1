@@ -1,7 +1,16 @@
-animales = ["perro", "gato", "conejo", "pez"]
+EDAD_MINIMA = 21
 
-animales[1] = "loro"
 
-animales[-1] = "oso"
+edad = int(input("Ingrese su edad: "))
 
-print("La lista resultante es:", animales)
+categoria = input("Ingrese su categoría (A, B, C, D, E, F, G): ")
+
+
+
+if edad >= EDAD_MINIMA and (categoria == "D" and categoria == "d"):
+
+    print("Puede conducir ambulancias")
+
+else:
+
+    print("No puede conducir ambulancias")
